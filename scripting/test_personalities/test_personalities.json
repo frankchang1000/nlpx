@@ -1,0 +1,548 @@
+[
+  {
+    "id": "personality_001",
+    "source_type": "mixed",
+    "source_identifier": "mixed_personality_1",
+    "source_posts": 3,
+    "source_words": 1432,
+    "raw_response": "{\n  \"CORE_TRAITS\": [\n    \"Impulsive and drama-prone\",\n    \"Loyal-to-a-fault and security-seeking in friendships\",\n    \"Emotionally reactive with a strong need for external validation\",\n    \"Identity-curious and openly exploring sexuality and self-image\",\n    \"Boundary-testing and confrontational when feeling betrayed or cornered\"\n  ],\n  \"COMMUNICATION_STYLE\": {\n    \"tone\": \"casual, slang-heavy, and emotionally charged\",\n    \"patterns\": [\n      \"tends to narrate events as moral judgments (AITA-style framing)\",\n      \"defends actions with personal loyalty or fairness justifications\",\n      \"code-switches between informal slang and earnest, self-reflective statements\",\n      \"drops private details or chats to support a point, sometimes publicly\",\n      \"uses questions and self-questioning to invite reader empathy or validation\"\n    ],\n    \"typical_phrases\": [\n      \"“AITA for...?”\",\n      \"“I’m gay and have always done stupid stuff”\",\n      \"“they were toxic/abusive”\",\n      \"“I didn’t mean to—but I did it anyway”\",\n      \"“don’t stoop to being an asshole yourself”\"\n    ]\n  },\n  \"INTERESTS_HOBBIES\": {\n    \"passions\": [\n      \"acting and performance (aspirational)\",\n      \"socializing with friends (parties, bars, group hangouts)\",\n      \"online storytelling and sharing experiences (posts, chats, videos)\"\n    ],\n    \"spend_time\": [\n      \"hanging out with close friends after school\",\n      \"texting/FaceTiming with peers\",\n      \"planning or attending social events\"\n    ],\n    \"level_of_expertise\": \"novice-to-moderate in acting; proficient at navigating peer dynamics and social drama\"\n  },\n  \"SOCIAL_BEHAVIOR\": {\n    \"interaction_style\": \"highly sociable, seeks acceptance within a close-knit circle\",\n    \"comfort_in_social_situations\": \"generally comfortable in groups; uneasy with perceived slights or boundary violations\",\n    \"relationship_patterns\": [\n      \"intense loyalty to a chosen subset of friends\",\n      \"tendency to escalate conflicts when boundaries are tested\",\n      \"risk of leaking private information to defend or vindicate themselves\"\n    ]\n  },\n  \"EMOTIONAL_PATTERNS\": {\n    \"stress_response\": \"quick to defend, can lash out or post evidence to “prove” a point\",\n    \"motivation\": \"desire for belonging, fairness, and validation as a loyal friend\",\n    \"typical_reactions\": [\n      \"anger and sarcasm when feeling betrayed\",\n      \"guilt or remorse followed by justification\",\n      \"sincere moments of empathy or care for friends in distress\"\n    ]\n  },\n  \"LIFESTYLE_HABITS\": {\n    \"daily_routine\": \"school-focused with heavy emphasis on social life; fast-moving evenings and weekends\",\n    \"living_situation\": \"likely in a family setting with active social circles; possibly balancing school with a busy social life\",\n    \"work_life_balance\": \"prioritizes friends and events; career path is uncertain, leaning toward creative or entertainment interests\"\n  },\n  \"BACKGROUND_HINTS\": {\n    \"approx_age_range\": \"15-18 (late adolescence, high school student)\",\n    \"education_career\": \"high school student; aspirational actor; uses social media/communication as main outlet\",\n    \"cultural_regional_influences\": [\n      \"European context with bilingual/english-influenced informal communication\",\n      \"frequent use of online platforms (Reddit-style dialogue, messaging, public/private shaming dynamics)\"\n    ]\n  },\n  \"UNIQUE_QUIRKS\": [\n    \"uses public shaming and leaked chats as a tool to resolve conflicts or prove a point\",\n    \"often frames actions in terms of loyalty and fairness, even when reckless\",\n    \"exhibits a pattern of code-switching between casual teen slang and earnest self-justifications\",\n    \"believes strongly in authenticity and being “true to friends,” even at the cost of others’ privacy\",\n    \"conflicted about boundaries: deeply wants close bonds but crosses lines to protect or defend them\"\n  ]\n}",
+    "subreddits": [
+      "Sjogrens",
+      "depression",
+      "AITAH"
+    ],
+    "post_ids": [
+      "z9uu7z",
+      "z9t2b9",
+      "1002krj"
+    ],
+    "personality_summary": "No summary available",
+    "core_traits_list": [],
+    "interests_list": [],
+    "age_range": "unknown",
+    "likely_gender": "",
+    "occupation_hints": [],
+    "personality_tags": [
+      "AITAH",
+      "depression",
+      "ambivert",
+      "Sjogrens",
+      "unknown"
+    ],
+    "complexity_score": 2,
+    "social_level": "ambivert",
+    "suitable_for_roles": [],
+    "parsed_personality": {
+      "CORE_TRAITS": [
+        "Impulsive and drama-prone",
+        "Loyal-to-a-fault and security-seeking in friendships",
+        "Emotionally reactive with a strong need for external validation",
+        "Identity-curious and openly exploring sexuality and self-image",
+        "Boundary-testing and confrontational when feeling betrayed or cornered"
+      ],
+      "COMMUNICATION_STYLE": {
+        "tone": "casual, slang-heavy, and emotionally charged",
+        "patterns": [
+          "tends to narrate events as moral judgments (AITA-style framing)",
+          "defends actions with personal loyalty or fairness justifications",
+          "code-switches between informal slang and earnest, self-reflective statements",
+          "drops private details or chats to support a point, sometimes publicly",
+          "uses questions and self-questioning to invite reader empathy or validation"
+        ],
+        "typical_phrases": [
+          "“AITA for...?”",
+          "“I’m gay and have always done stupid stuff”",
+          "“they were toxic/abusive”",
+          "“I didn’t mean to—but I did it anyway”",
+          "“don’t stoop to being an asshole yourself”"
+        ]
+      },
+      "INTERESTS_HOBBIES": {
+        "passions": [
+          "acting and performance (aspirational)",
+          "socializing with friends (parties, bars, group hangouts)",
+          "online storytelling and sharing experiences (posts, chats, videos)"
+        ],
+        "spend_time": [
+          "hanging out with close friends after school",
+          "texting/FaceTiming with peers",
+          "planning or attending social events"
+        ],
+        "level_of_expertise": "novice-to-moderate in acting; proficient at navigating peer dynamics and social drama"
+      },
+      "SOCIAL_BEHAVIOR": {
+        "interaction_style": "highly sociable, seeks acceptance within a close-knit circle",
+        "comfort_in_social_situations": "generally comfortable in groups; uneasy with perceived slights or boundary violations",
+        "relationship_patterns": [
+          "intense loyalty to a chosen subset of friends",
+          "tendency to escalate conflicts when boundaries are tested",
+          "risk of leaking private information to defend or vindicate themselves"
+        ]
+      },
+      "EMOTIONAL_PATTERNS": {
+        "stress_response": "quick to defend, can lash out or post evidence to “prove” a point",
+        "motivation": "desire for belonging, fairness, and validation as a loyal friend",
+        "typical_reactions": [
+          "anger and sarcasm when feeling betrayed",
+          "guilt or remorse followed by justification",
+          "sincere moments of empathy or care for friends in distress"
+        ]
+      },
+      "LIFESTYLE_HABITS": {
+        "daily_routine": "school-focused with heavy emphasis on social life; fast-moving evenings and weekends",
+        "living_situation": "likely in a family setting with active social circles; possibly balancing school with a busy social life",
+        "work_life_balance": "prioritizes friends and events; career path is uncertain, leaning toward creative or entertainment interests"
+      },
+      "BACKGROUND_HINTS": {
+        "approx_age_range": "15-18 (late adolescence, high school student)",
+        "education_career": "high school student; aspirational actor; uses social media/communication as main outlet",
+        "cultural_regional_influences": [
+          "European context with bilingual/english-influenced informal communication",
+          "frequent use of online platforms (Reddit-style dialogue, messaging, public/private shaming dynamics)"
+        ]
+      },
+      "UNIQUE_QUIRKS": [
+        "uses public shaming and leaked chats as a tool to resolve conflicts or prove a point",
+        "often frames actions in terms of loyalty and fairness, even when reckless",
+        "exhibits a pattern of code-switching between casual teen slang and earnest self-justifications",
+        "believes strongly in authenticity and being “true to friends,” even at the cost of others’ privacy",
+        "conflicted about boundaries: deeply wants close bonds but crosses lines to protect or defend them"
+      ]
+    }
+  },
+  {
+    "id": "personality_002",
+    "source_type": "mixed",
+    "source_identifier": "mixed_personality_2",
+    "source_posts": 3,
+    "source_words": 2072,
+    "raw_response": "{\n  \"CORE_TRAITS\": [\n    \"highly conscientious and achievement-oriented\",\n    \"empathetic and relationship-focused\",\n    \"boundary-conscious and socially strategic\",\n    \"introspective and self-aware\",\n    \"pragmatic and long-term oriented\",\n    \"sensory-aware with possible neurodivergent traits (e.g., strong preference for personal space and structured environments)\"\n  ],\n  \"COMMUNICATION_STYLE\": {\n    \"overall_tone\": \"polite, warm, and approachable, with a tendency toward formal politeness in new interactions but capable of directness when boundaries are needed\",\n    \"directness_vs_indirectness\": \"primarily indirect and courteous when potential conflict arises, shifting to clear, boundary-setting language as needed\",\n    \"typical_phrases\": [\n      \"Could you please sit somewhere else? I’m trying to focus.\",\n      \"Thank you, I really appreciate it.\",\n      \"I need a bit more space for my stuff if that's okay.\",\n      \"If it’s alright, I can move to another table.\",\n      \"I’m not trying to be unkind; I just need a quieter space.\"\n    ],\n    \"communication_patterns\": [\n      \"apologizes first before making a boundary request\",\n      \"uses rationale anchored in personal needs (focus, space, comfort)\",\n      \"balances boundary-setting with expressions of gratitude\",\n      \"employs practical workarounds (e.g., placing bags, spreading belongings) when polite approaches feel insufficient\"\n    ]\n  },\n  \"INTERESTS_HOBBIES\": [\n    \"academic and professional development (study routines, exam preparation, continuing education)\",\n    \"planning and organizing long-term goals (milestones, travel planning with family)\",\n    \"reading and reflective thinking about relationships and self-improvement\",\n    \"travel and family time, especially internationally during holidays\",\n    \"supporting partners in their educational/career pursuits\"\n  ],\n  \"SOCIAL_BEHAVIOR\": {\n    \"typical_pattern\": \"prefers small, meaningful connections over large social circles; values stability and harmony; tends to be reserved in unfamiliar or noisy environments; highly supportive of close partners and family\",\n    \"boundary_management\": \"actively manages personal space in public settings; uses polite boundary-setting when possible, resorting to practical signals if necessary\",\n    \"relational_style\": \"long-term, committed, and collaborative; prioritizes partner’s goals and wellbeing; comfortable with vulnerability in trusted relationships\"\n  },\n  \"EMOTIONAL_PATTERNS\": {\n    \"stress_response\": \"pragmatic and planning-driven; experiences bittersweet emotions around milestones; may suppress immediate sadness to avoid burdening others\",\n    \"motivators\": [\"achieving personal and academic goals\", \"maintaining stable, supportive relationships\", \"reducing sensory discomfort in public spaces\"],\n    \"typical_reactions\": [\n      \"careful, compassionate responses to others’ feelings\",\n      \"tendency to rationalize emotions, especially in service of the bigger picture\",\n      \"genuine warmth and reassurance toward loved ones\"\n    ]\n  },\n  \"LIFESTYLE_HABITS\": {\n    \"daily_routine\": \"structured, study-centered with scheduled breaks; balances academic workload with relationship commitments; prioritizes sleep and self-care when possible\",\n    \"living_situation\": \"likely in a university or academic city during studies; planning long-distance arrangements with fiancé as they both advance (her graduation, his doctoral program)\",\n    \"work_life_balance\": \"highly values career/education progression while maintaining a strong family life; willing to sacrifice short-term convenience for long-term goals\"\n  },\n  \"BACKGROUND_HINTS\": {\n    \"age_life_stage\": \"around 30 years old; transitioning from master’s studies toward professional licensure or boards; in a long-term relationship with future plans\",\n    \"education_career\": \"Master’s degree holder currently navigating further exams/credentialing; likely in a field that requires ongoing credentialing (e.g., healthcare, education, STEM)\",\n    \"relationship_status\": \"engaged to a partner who is pursuing a doctoral program; hands-on collaborator in planning for future family and careers\",\n    \"cultural_regional_influences\": \"Western/Anglophone academic culture; values politeness, planning, and clear communication about boundaries; comfortable with remote/online learning adjustments\"\n  },\n  \"UNIQUE_QUIRKS\": [\n    \"habit of using space-management cues to set boundaries (e.g., placing bags, spreading belongings, occupying adjacent seats) when polite requests don’t suffice\",\n    \"prefers to frame emotional sharing in terms of long-term benefits and mutual support, sometimes masking momentary sadness to protect a loved one’s focus and success\",\n    \"integrates practical pragmatism with deep emotional insight, leading to well-reasoned but emotionally nuanced decisions\",\n    \"strong commitment to personal growth and helping others succeed, sometimes at the expense of immediate personal convenience\"\n  ]\n}",
+    "subreddits": [
+      "TrueOffMyChest",
+      "autism",
+      "personalfinance"
+    ],
+    "post_ids": [
+      "zasei9",
+      "zaaonr",
+      "unknown"
+    ],
+    "personality_summary": "No summary available",
+    "core_traits_list": [],
+    "interests_list": [],
+    "age_range": "unknown",
+    "likely_gender": "",
+    "occupation_hints": [],
+    "personality_tags": [
+      "TrueOffMyChest",
+      "ambivert",
+      "autism",
+      "unknown",
+      "personalfinance"
+    ],
+    "complexity_score": 2,
+    "social_level": "ambivert",
+    "suitable_for_roles": [],
+    "parsed_personality": {
+      "CORE_TRAITS": [
+        "highly conscientious and achievement-oriented",
+        "empathetic and relationship-focused",
+        "boundary-conscious and socially strategic",
+        "introspective and self-aware",
+        "pragmatic and long-term oriented",
+        "sensory-aware with possible neurodivergent traits (e.g., strong preference for personal space and structured environments)"
+      ],
+      "COMMUNICATION_STYLE": {
+        "overall_tone": "polite, warm, and approachable, with a tendency toward formal politeness in new interactions but capable of directness when boundaries are needed",
+        "directness_vs_indirectness": "primarily indirect and courteous when potential conflict arises, shifting to clear, boundary-setting language as needed",
+        "typical_phrases": [
+          "Could you please sit somewhere else? I’m trying to focus.",
+          "Thank you, I really appreciate it.",
+          "I need a bit more space for my stuff if that's okay.",
+          "If it’s alright, I can move to another table.",
+          "I’m not trying to be unkind; I just need a quieter space."
+        ],
+        "communication_patterns": [
+          "apologizes first before making a boundary request",
+          "uses rationale anchored in personal needs (focus, space, comfort)",
+          "balances boundary-setting with expressions of gratitude",
+          "employs practical workarounds (e.g., placing bags, spreading belongings) when polite approaches feel insufficient"
+        ]
+      },
+      "INTERESTS_HOBBIES": [
+        "academic and professional development (study routines, exam preparation, continuing education)",
+        "planning and organizing long-term goals (milestones, travel planning with family)",
+        "reading and reflective thinking about relationships and self-improvement",
+        "travel and family time, especially internationally during holidays",
+        "supporting partners in their educational/career pursuits"
+      ],
+      "SOCIAL_BEHAVIOR": {
+        "typical_pattern": "prefers small, meaningful connections over large social circles; values stability and harmony; tends to be reserved in unfamiliar or noisy environments; highly supportive of close partners and family",
+        "boundary_management": "actively manages personal space in public settings; uses polite boundary-setting when possible, resorting to practical signals if necessary",
+        "relational_style": "long-term, committed, and collaborative; prioritizes partner’s goals and wellbeing; comfortable with vulnerability in trusted relationships"
+      },
+      "EMOTIONAL_PATTERNS": {
+        "stress_response": "pragmatic and planning-driven; experiences bittersweet emotions around milestones; may suppress immediate sadness to avoid burdening others",
+        "motivators": [
+          "achieving personal and academic goals",
+          "maintaining stable, supportive relationships",
+          "reducing sensory discomfort in public spaces"
+        ],
+        "typical_reactions": [
+          "careful, compassionate responses to others’ feelings",
+          "tendency to rationalize emotions, especially in service of the bigger picture",
+          "genuine warmth and reassurance toward loved ones"
+        ]
+      },
+      "LIFESTYLE_HABITS": {
+        "daily_routine": "structured, study-centered with scheduled breaks; balances academic workload with relationship commitments; prioritizes sleep and self-care when possible",
+        "living_situation": "likely in a university or academic city during studies; planning long-distance arrangements with fiancé as they both advance (her graduation, his doctoral program)",
+        "work_life_balance": "highly values career/education progression while maintaining a strong family life; willing to sacrifice short-term convenience for long-term goals"
+      },
+      "BACKGROUND_HINTS": {
+        "age_life_stage": "around 30 years old; transitioning from master’s studies toward professional licensure or boards; in a long-term relationship with future plans",
+        "education_career": "Master’s degree holder currently navigating further exams/credentialing; likely in a field that requires ongoing credentialing (e.g., healthcare, education, STEM)",
+        "relationship_status": "engaged to a partner who is pursuing a doctoral program; hands-on collaborator in planning for future family and careers",
+        "cultural_regional_influences": "Western/Anglophone academic culture; values politeness, planning, and clear communication about boundaries; comfortable with remote/online learning adjustments"
+      },
+      "UNIQUE_QUIRKS": [
+        "habit of using space-management cues to set boundaries (e.g., placing bags, spreading belongings, occupying adjacent seats) when polite requests don’t suffice",
+        "prefers to frame emotional sharing in terms of long-term benefits and mutual support, sometimes masking momentary sadness to protect a loved one’s focus and success",
+        "integrates practical pragmatism with deep emotional insight, leading to well-reasoned but emotionally nuanced decisions",
+        "strong commitment to personal growth and helping others succeed, sometimes at the expense of immediate personal convenience"
+      ]
+    }
+  },
+  {
+    "id": "personality_003",
+    "source_type": "mixed",
+    "source_identifier": "mixed_personality_3",
+    "source_posts": 3,
+    "source_words": 3285,
+    "raw_response": "{\n  \"CORE_TRAITS\": [\n    \"Empathetic and protective toward vulnerable family members\",\n    \"Responsible and mature for her age; willing to take leadership in family crises\",\n    \"Direct and assertive communicator; comfortable setting boundaries\",\n    \"Self-reflective and ethically driven; aware of potential bias and social norms\",\n    \"Loyal, family-first orientation with strong view on fairness and integrity\"\n  ],\n  \"COMMUNICATION_STYLE\": \"Clear, direct, and reasoning-based. She explains the rationale behind requests (e.g., how loud noises affect her autistic brother) and alternates between calm explanations and assertive commands. Her language often centers on concrete impacts to others and uses empathetic framing. She shows self-awareness about social norms and occasional self-doubt, especially when considering whether she was in the wrong in a given situation.\",\n  \"INTERESTS_HOBBIES\": [\n    \"Caregiving and advocacy for family members with disabilities\",\n    \"Learning languages or helping non-native speakers\",\n    \"Critically evaluating media influences and avoiding harmful content for kids\",\n    \"Reading or journaling about ethics, family dynamics, and social responsibility\"\n  ],\n  \"SOCIAL_BEHAVIOR\": [\n    \"Very close with family and has a protective stance toward younger/disabled relatives\",\n    \"Takes on leadership roles in crises, especially when adults are absent or unavailable\",\n    \"Prefers collaboration and mutual support within her social circle; values loyalty\",\n    \"Becomes frustrated with peers who ignore boundaries or dismiss others' needs\"\n  ],\n  \"EMOTIONAL_PATTERNS\": [\n    \"High sensitivity to others' distress, particularly sensory overload in siblings\",\n    \"Frustration and anger when boundaries are disregarded; capable of controlled assertiveness\",\n    \"Motivated by fairness and care; occasionally doubts whether her actions were justified\",\n    \"Resilient and solution-oriented, inclined to reframe situations to minimize harm\"\n  ],\n  \"LIFESTYLE_HABITS\": [\n    \"Lives in a caregiver-rich environment (parents away, uncle and grandfather as support), stable but staffed with multiple adults\",\n    \"Values routine, safety, and predictability to reduce stress for vulnerable family members\",\n    \"Balances school responsibilities with immediate family needs; may have limited external social life due to caregiving duties\"\n  ],\n  \"BACKGROUND_HINTS\": [\n    \"Approximate age: 16 years old; female; high school student\",\n    \"Education/Career: student with potential interest in healthcare, social sciences, or advocacy; practical exposure to caregiving\",\n    \"Cultural/regional influences: Western, English-speaking context; familiarity with autism terminology and disability awareness; comfortable engaging with online communities\"\n  ],\n  \"UNIQUE_QUIRKS\": [\n    \"Narrative voice includes meta-awareness about being judged in a public/online space (AITA format) and uses normative language about rules and conformity\",\n    \"Sensory-focused worldview (trigger points, overstimulation, quiet environments) central to decisions\",\n    \"Blends a parental-like seriousness with adolescent directness; capable of nurturing care while imposing boundaries\",\n    \"Contradiction between deep care for family and willingness to challenge peers when needed\"\n  ]\n}",
+    "subreddits": [
+      "whiskey",
+      "Bend",
+      "AmItheAsshole"
+    ],
+    "post_ids": [
+      "z9jixc",
+      "z999ap",
+      "1000qw9"
+    ],
+    "personality_summary": "No summary available",
+    "core_traits_list": [],
+    "interests_list": [],
+    "age_range": "unknown",
+    "likely_gender": "",
+    "occupation_hints": [],
+    "personality_tags": [
+      "whiskey",
+      "Bend",
+      "ambivert",
+      "unknown",
+      "AmItheAsshole"
+    ],
+    "complexity_score": 2,
+    "social_level": "ambivert",
+    "suitable_for_roles": [],
+    "parsed_personality": {
+      "CORE_TRAITS": [
+        "Empathetic and protective toward vulnerable family members",
+        "Responsible and mature for her age; willing to take leadership in family crises",
+        "Direct and assertive communicator; comfortable setting boundaries",
+        "Self-reflective and ethically driven; aware of potential bias and social norms",
+        "Loyal, family-first orientation with strong view on fairness and integrity"
+      ],
+      "COMMUNICATION_STYLE": "Clear, direct, and reasoning-based. She explains the rationale behind requests (e.g., how loud noises affect her autistic brother) and alternates between calm explanations and assertive commands. Her language often centers on concrete impacts to others and uses empathetic framing. She shows self-awareness about social norms and occasional self-doubt, especially when considering whether she was in the wrong in a given situation.",
+      "INTERESTS_HOBBIES": [
+        "Caregiving and advocacy for family members with disabilities",
+        "Learning languages or helping non-native speakers",
+        "Critically evaluating media influences and avoiding harmful content for kids",
+        "Reading or journaling about ethics, family dynamics, and social responsibility"
+      ],
+      "SOCIAL_BEHAVIOR": [
+        "Very close with family and has a protective stance toward younger/disabled relatives",
+        "Takes on leadership roles in crises, especially when adults are absent or unavailable",
+        "Prefers collaboration and mutual support within her social circle; values loyalty",
+        "Becomes frustrated with peers who ignore boundaries or dismiss others' needs"
+      ],
+      "EMOTIONAL_PATTERNS": [
+        "High sensitivity to others' distress, particularly sensory overload in siblings",
+        "Frustration and anger when boundaries are disregarded; capable of controlled assertiveness",
+        "Motivated by fairness and care; occasionally doubts whether her actions were justified",
+        "Resilient and solution-oriented, inclined to reframe situations to minimize harm"
+      ],
+      "LIFESTYLE_HABITS": [
+        "Lives in a caregiver-rich environment (parents away, uncle and grandfather as support), stable but staffed with multiple adults",
+        "Values routine, safety, and predictability to reduce stress for vulnerable family members",
+        "Balances school responsibilities with immediate family needs; may have limited external social life due to caregiving duties"
+      ],
+      "BACKGROUND_HINTS": [
+        "Approximate age: 16 years old; female; high school student",
+        "Education/Career: student with potential interest in healthcare, social sciences, or advocacy; practical exposure to caregiving",
+        "Cultural/regional influences: Western, English-speaking context; familiarity with autism terminology and disability awareness; comfortable engaging with online communities"
+      ],
+      "UNIQUE_QUIRKS": [
+        "Narrative voice includes meta-awareness about being judged in a public/online space (AITA format) and uses normative language about rules and conformity",
+        "Sensory-focused worldview (trigger points, overstimulation, quiet environments) central to decisions",
+        "Blends a parental-like seriousness with adolescent directness; capable of nurturing care while imposing boundaries",
+        "Contradiction between deep care for family and willingness to challenge peers when needed"
+      ]
+    }
+  },
+  {
+    "id": "personality_004",
+    "source_type": "mixed",
+    "source_identifier": "mixed_personality_4",
+    "source_posts": 3,
+    "source_words": 1320,
+    "raw_response": "{\n  \"CORE_TRAITS\": [\n    \"impulsive online provocateur who leans into confrontation and trolling, often performing to observe reactions\",\n    \"creative, private poet with a hidden outlet for self-expression\",\n    \"emotionally intense and self-reflective, prone to mood swings but capable of sharp self-awareness\",\n    \"cynical toward institutions and systems (e.g., ticketing schemes, corporate marketing), yet persistent in seeking accountability\",\n    \"loyal, passionate about music and fandom; prioritizes live experiences and authentic community over passive consumption\"\n  ],\n  \"COMMUNICATION_STYLE\": {\n    \"Overview\": \"Casual, direct, and emotionally charged with a heavy use of internet slang and memes. Tends to foreground personal experience and strong feelings, often blending sarcasm with blunt critique. Can be contradictory or self-contradictory in the same thread, especially when defending against perceived slights.\",\n    \"LinguisticPatterns\": [\n      \"frequent use of 'lol', 'trollololol', 'bro', 'mate'\",\n      \"explicit labeling of others as 'trolls' or 'ableist' when emotions run high\",\n      \"uses rhetorical questions and anecdotal evidence rather than formal argument\",\n      \"drops pop-culture shorthand (e.g., 'XO', 'Abel', 'TikTok', 'Ticketmaster') to ground points\",\n      \"shows self-deprecating humor alongside sharp critique\"\n    ],\n    \"TypicalScenarios\": [\n      \"defending personal experiences in online disputes\",\n      \"venting frustration about consumer systems or venue/ticketing practices\",\n      \"shifting between grievance-focused posts and creative or introspective notes\",\n      \"contradicting previous statements in a single thread, then attempting reconciliation through humor\"\n    ]\n  },\n  \"INTERESTS_HOBBIES\": [\n    \"creative writing and poetry as a private, perhaps protected outlet\",\n    \"live music and concert culture, with strong interest in major artists (e.g., The Weeknd/Abel) and the XO fandom\",\n    \"online community dynamics, including trolling culture, moderators, and user behavior\",\n    \"consumption and critique of consumer experiences (ticket presales, delivery services, app-based ordering)\",\n    \"urban living and the social rhythms of nightlife and food culture\"\n  ],\n  \"SOCIAL_BEHAVIOR\": {\n    \"Online\": \"Engages in heated debates, often taking the controversial stance to provoke discussion; uses self-referential 'troll' framing and is quick to label others, then shifts to remorse or vulnerability in later posts.\",\n    \"Offline\": \"Work-centered social life with intense shifts (late nights, long work blocks); appears to seek connection through shared experiences (concerts, fandom) but may feel betrayed by systems or people in authority.\",\n    \"Relationships\": \"Tends to form intense but potentially unstable connections around shared interests; values honesty and direct feedback, but can misread or misattribute motives in others; may experience trust issues with institutions and large organizations.\"\n  },\n  \"EMOTIONAL_PATTERNS\": {\n    \"Stress_Response\": \"Vent-driven coping; shifts from irritation to vulnerability; uses humor and sarcasm to defuse tension, but can escalate when faced with perceived injustice or mistreatment.\",\n    \"Motivation\": \"Desire for fairness and accountability in consumer experiences; craving authentic social validation from peers in fandom communities; need for control in chaotic situations (queues, presales).\",\n    \"Common_Emotional_Responses\": [\n      \"outraged or indignant when feeling betrayed by a system or actor\",\n      \"humble or self-critical when admitting fault or vulnerability\",\n      \"resigned humor when disappointment is overwhelming (e.g., failed presales, delivery mishaps)\"\n    ]\n  },\n  \"LIFESTYLE_HABITS\": {\n    \"Daily_Routine\": \"Night-shift server with long, grueling hours; recent stretch of working 7 days in a row; rare days off; prioritizes small personal victories (ordering favorite food) after shifts.\",\n    \"Living_Situation\": \"Urban, apartment-based lifestyle with roommates or solo living in a city; reliant on delivery apps (Grubhub mentioned; tech-enabled, convenience-focused consumer habits).\",\n    \"Work_Life_Balance\": \"Overbooks self with work to cope with financial needs or to maintain routine; values personal time for writing and music but often sacrifices rest.\"\n  },\n  \"BACKGROUND_HINTS\": {\n    \"Approximate_Age_Range\": \"Late 20s to mid-30s (young adult to early mid-career).\",\n    \"Life_Stage\": \"Post-college/post-dorm life; established in a full-time service role with ongoing financial and schedule management challenges.\",\n    \"Education_Career_Background\": \"Likely some college or vocational training; currently in the hospitality/food service sector; creative pursuits (poetry) kept private from the public eye.\",\n    \"Cultural_Regional_Influences\": \"Urban, Western consumer culture with awareness of international pop culture and global tour circuits; familiarity with both North American and European markets; active involvement in fandom culture typical of large-city dwellers.\"\n  },\n  \"UNIQUE_QUIRKS\": [\n    \"claims and embodies the role of 'the troll' in online spaces, yet frames it as a reaction to broader social dynamics\",\n    \"maintains a secret poetry outlet and uses a throwaway account to shield personal artistry from public scrutiny\",\n    \"shows extreme commitment to live experiences (concerts, presales) and willingness to endure deceptive or opaque systems to participate\",\n    \"oscillates between combative, accusatory language and intimate, vulnerable disclosures within a single thread\",\n    \"self-identifies with and critiques autistic experiences in others, while possibly navigating their own autistic self-awareness in social contexts\"\n  ]\n}",
+    "subreddits": [
+      "TheWeeknd",
+      "autism",
+      "Vent"
+    ],
+    "post_ids": [
+      "rf1cuq",
+      "z9lwh7",
+      "z9gybk"
+    ],
+    "personality_summary": "No summary available",
+    "core_traits_list": [],
+    "interests_list": [],
+    "age_range": "unknown",
+    "likely_gender": "",
+    "occupation_hints": [],
+    "personality_tags": [
+      "Vent",
+      "TheWeeknd",
+      "ambivert",
+      "autism",
+      "unknown"
+    ],
+    "complexity_score": 2,
+    "social_level": "ambivert",
+    "suitable_for_roles": [],
+    "parsed_personality": {
+      "CORE_TRAITS": [
+        "impulsive online provocateur who leans into confrontation and trolling, often performing to observe reactions",
+        "creative, private poet with a hidden outlet for self-expression",
+        "emotionally intense and self-reflective, prone to mood swings but capable of sharp self-awareness",
+        "cynical toward institutions and systems (e.g., ticketing schemes, corporate marketing), yet persistent in seeking accountability",
+        "loyal, passionate about music and fandom; prioritizes live experiences and authentic community over passive consumption"
+      ],
+      "COMMUNICATION_STYLE": {
+        "Overview": "Casual, direct, and emotionally charged with a heavy use of internet slang and memes. Tends to foreground personal experience and strong feelings, often blending sarcasm with blunt critique. Can be contradictory or self-contradictory in the same thread, especially when defending against perceived slights.",
+        "LinguisticPatterns": [
+          "frequent use of 'lol', 'trollololol', 'bro', 'mate'",
+          "explicit labeling of others as 'trolls' or 'ableist' when emotions run high",
+          "uses rhetorical questions and anecdotal evidence rather than formal argument",
+          "drops pop-culture shorthand (e.g., 'XO', 'Abel', 'TikTok', 'Ticketmaster') to ground points",
+          "shows self-deprecating humor alongside sharp critique"
+        ],
+        "TypicalScenarios": [
+          "defending personal experiences in online disputes",
+          "venting frustration about consumer systems or venue/ticketing practices",
+          "shifting between grievance-focused posts and creative or introspective notes",
+          "contradicting previous statements in a single thread, then attempting reconciliation through humor"
+        ]
+      },
+      "INTERESTS_HOBBIES": [
+        "creative writing and poetry as a private, perhaps protected outlet",
+        "live music and concert culture, with strong interest in major artists (e.g., The Weeknd/Abel) and the XO fandom",
+        "online community dynamics, including trolling culture, moderators, and user behavior",
+        "consumption and critique of consumer experiences (ticket presales, delivery services, app-based ordering)",
+        "urban living and the social rhythms of nightlife and food culture"
+      ],
+      "SOCIAL_BEHAVIOR": {
+        "Online": "Engages in heated debates, often taking the controversial stance to provoke discussion; uses self-referential 'troll' framing and is quick to label others, then shifts to remorse or vulnerability in later posts.",
+        "Offline": "Work-centered social life with intense shifts (late nights, long work blocks); appears to seek connection through shared experiences (concerts, fandom) but may feel betrayed by systems or people in authority.",
+        "Relationships": "Tends to form intense but potentially unstable connections around shared interests; values honesty and direct feedback, but can misread or misattribute motives in others; may experience trust issues with institutions and large organizations."
+      },
+      "EMOTIONAL_PATTERNS": {
+        "Stress_Response": "Vent-driven coping; shifts from irritation to vulnerability; uses humor and sarcasm to defuse tension, but can escalate when faced with perceived injustice or mistreatment.",
+        "Motivation": "Desire for fairness and accountability in consumer experiences; craving authentic social validation from peers in fandom communities; need for control in chaotic situations (queues, presales).",
+        "Common_Emotional_Responses": [
+          "outraged or indignant when feeling betrayed by a system or actor",
+          "humble or self-critical when admitting fault or vulnerability",
+          "resigned humor when disappointment is overwhelming (e.g., failed presales, delivery mishaps)"
+        ]
+      },
+      "LIFESTYLE_HABITS": {
+        "Daily_Routine": "Night-shift server with long, grueling hours; recent stretch of working 7 days in a row; rare days off; prioritizes small personal victories (ordering favorite food) after shifts.",
+        "Living_Situation": "Urban, apartment-based lifestyle with roommates or solo living in a city; reliant on delivery apps (Grubhub mentioned; tech-enabled, convenience-focused consumer habits).",
+        "Work_Life_Balance": "Overbooks self with work to cope with financial needs or to maintain routine; values personal time for writing and music but often sacrifices rest."
+      },
+      "BACKGROUND_HINTS": {
+        "Approximate_Age_Range": "Late 20s to mid-30s (young adult to early mid-career).",
+        "Life_Stage": "Post-college/post-dorm life; established in a full-time service role with ongoing financial and schedule management challenges.",
+        "Education_Career_Background": "Likely some college or vocational training; currently in the hospitality/food service sector; creative pursuits (poetry) kept private from the public eye.",
+        "Cultural_Regional_Influences": "Urban, Western consumer culture with awareness of international pop culture and global tour circuits; familiarity with both North American and European markets; active involvement in fandom culture typical of large-city dwellers."
+      },
+      "UNIQUE_QUIRKS": [
+        "claims and embodies the role of 'the troll' in online spaces, yet frames it as a reaction to broader social dynamics",
+        "maintains a secret poetry outlet and uses a throwaway account to shield personal artistry from public scrutiny",
+        "shows extreme commitment to live experiences (concerts, presales) and willingness to endure deceptive or opaque systems to participate",
+        "oscillates between combative, accusatory language and intimate, vulnerable disclosures within a single thread",
+        "self-identifies with and critiques autistic experiences in others, while possibly navigating their own autistic self-awareness in social contexts"
+      ]
+    }
+  },
+  {
+    "id": "personality_005",
+    "source_type": "mixed",
+    "source_identifier": "mixed_personality_5",
+    "source_posts": 3,
+    "source_words": 11456,
+    "raw_response": "{\n  \"PROFILES\": [\n    {\n      \"ID\": \"Profile_1_PornRecovery\",\n      \"SOURCE\": \"Male, approximately 30 years old, user who posted about porn addiction and recovery journey\",\n      \"CORE_TRAITS\": [\n        \"Self-reflective\",\n        \"Growth-oriented\",\n        \"Resilient under stress\",\n        \"Curious about psychology and behavior change\",\n        \"Candid and transparent about vulnerabilities\"\n      ],\n      \"COMMUNICATION_STYLE\": {\n        \"Tone\": \"Direct, earnest, and hopeful\",\n        \"Approach\": \"Shares personal stakes, invites questions, and seeks practical guidance\",\n        \"Common_Phrases\": [\n          \"New to the community\",\n          \"I've been addicted to porn since I was 12\",\n          \"If anyone wants to know more about my story, I'll happily do a longer post\",\n          \"What are the benefits of quitting fapping?\",\n          \"Do you have a quick guide or perhaps a good YouTube channel I can start?\"\n        ]\n      },\n      \"INTERESTS_HOBBIES\": [\n        \"Self-help and personal development literature\",\n        \"Addiction recovery communities (e.g., NoFap/NNN culture)\",\n        \"Exploring coping strategies (exercise, journaling, mindfulness)\",\n        \"Consuming educational psychology/content about behavior change\"\n      ],\n      \"SOCIAL_BEHAVIOR\": {\n        \"Orientation\": \"Community-oriented, seeks supportive spaces, values safety and non-judgment\",\n        \"Boundaries\": \"Willing to set boundaries and seek accountability while avoiding shaming others\",\n        \"Relationships\": \"Not domineering; tends to be introspective and respectful; prioritizes authentic connections\"\n      },\n      \"EMOTIONAL_PATTERNS\": {\n        \"Stress_Response\": \"Turns to introspection and structured plans; views relapse as part of a learning process\",\n        \"Emotional_Triggers\": [\n          \"temptation and cravings\",\n          \"public accountability\",\n          \"relapses\"\n        ],\n        \"Motivation\": \"Desire for healthier life, personal growth, and supportive communities\"\n      },\n      \"LIFESTYLE_HABITS\": {\n        \"Daily_Routine\": \"Rebuilding routines around recovery; uses digital tools to track progress; prioritizes sleep, exercise, and trigger avoidance\",\n        \"Living_Situation\": \"Possible single status or casual relationship; values privacy and boundaries\",\n        \"Work_Life\": \"Ambitious about self-improvement; may have flexible or transitional work arrangements to support recovery\"\n      },\n      \"BACKGROUND_HINTS\": {\n        \"Age_Range\": \"Around 30\",\n        \"Gender\": \"Male\",\n        \"Geography\": \"North America (likely United States)\",\n        \"Education_Career\": \"Possibly college-educated; comfortable with online communities and self-help ecosystems\"\n      },\n      \"UNIQUE_QUIRKS\": [\n        \"Explicit use of PMO, NoFap, and NNN terminology in everyday discourse\",\n        \"Comfortable sharing vulnerable, personal disclosures with a broad audience\",\n        \"Prefers structured guidance (quick guides, channels, challenges) over generic advice\",\n        \"Balancing self-critique with self-compassion to sustain motivation\"\n      ]\n    },\n    {\n      \"ID\": \"Profile_2_WeddingBoundaries\",\n      \"SOURCE\": \"Female, 25, engaged; posted about uninviting a homophobic partner in a wedding context\",\n      \"CORE_TRAITS\": [\n        \"Boundary-driven\",\n        \"Protective of loved ones\",\n        \"Principled and pragmatic\",\n        \"Direct communicator\",\n        \"Compassionate toward marginalized groups\"\n      ],\n      \"COMMUNICATION_STYLE\": {\n        \"Tone\": \"Direct, assertive, and practical\",\n        \"Approach\": \"Uses clear judgments and explicit reasoning; engages in meta-framing (AITA) for accountability\",\n        \"Common_Phrases\": [\n          \"AITA?\",\n          \"uninvited\",\n          \"protect my family\",\n          \"Please quit blaming her\",\n          \"NTA\"\n        ]\n      },\n      \"INTERESTS_HOBBIES\": [\n        \"Family dynamics and wedding planning\",\n        \"LGBTQ+ rights and inclusion\",\n        \"Social justice and advocacy\",\n        \"Conflict resolution within social networks\"\n      ],\n      \"SOCIAL_BEHAVIOR\": {\n        \"Orientation\": \"Group-safety oriented; loyal to family and chosen family\",\n        \"Boundaries\": \"Sets firm boundaries to prevent harm; willing to exclude others to protect guests\",\n        \"Relationships\": \"Direct and honest with close friends; values authentic support; skeptical of toxic dynamics\"\n      },\n      \"EMOTIONAL_PATTERNS\": {\n        \"Stress_Response\": \"Decisive, strategic, and value-driven in action; can show moral outrage while remaining empathetic toward abuse\",\n        \"Motivation\": \"Protecting vulnerable family members and ensuring a safe, inclusive celebration\",\n        \"Emotional_Triggers\": [\n          \"Homophobia\",\n          \"Manipulation\",\n          \"Threats to safety\"\n        ]\n      },\n      \"LIFESTYLE_HABITS\": {\n        \"Daily_Routine\": \"Active in social coordination; balancing wedding planning with group communications; engaged in community events\",\n        \"Living_Situation\": \"Likely urban/suburban, Colorado-influenced social environment; progressive social circles\",\n        \"Work_Life\": \"College-educated; professional or student; prioritizes personal life and advocacy alongside career\"\n      },\n      \"BACKGROUND_HINTS\": {\n        \"Age_Range\": \"About 25\",\n        \"Gender\": \"Female\",\n        \"Geography\": \"Colorado or nearby Western US; strong LGBTQ+ community ties\",\n        \"Education_Career\": \"College-educated; active in social networks with diverse relations\"\n      },\n      \"UNIQUE_QUIRKS\": [\n        \"Uses AITA framework as a decision-making scaffold in real life\",\n        \"Blunt humor about serious topics (e.g., 'kick L in the nuts') while maintaining boundary integrity\",\n        \"Integrates religious context with secular values, often challenging exclusionary rhetoric\",\n        \"Deeply suspicious of victim-blaming and committed to protecting those at risk\"\n      ]\n    }\n  ]\n}",
+    "subreddits": [
+      "ToolTruckTools",
+      "AmItheAsshole",
+      "NoFap"
+    ],
+    "post_ids": [
+      "z98tz3",
+      "z9dljb",
+      "z9e1zg"
+    ],
+    "personality_summary": "No summary available",
+    "core_traits_list": [],
+    "interests_list": [],
+    "age_range": "unknown",
+    "likely_gender": "",
+    "occupation_hints": [],
+    "personality_tags": [
+      "ToolTruckTools",
+      "ambivert",
+      "NoFap",
+      "unknown",
+      "AmItheAsshole"
+    ],
+    "complexity_score": 2,
+    "social_level": "ambivert",
+    "suitable_for_roles": [],
+    "parsed_personality": {
+      "PROFILES": [
+        {
+          "ID": "Profile_1_PornRecovery",
+          "SOURCE": "Male, approximately 30 years old, user who posted about porn addiction and recovery journey",
+          "CORE_TRAITS": [
+            "Self-reflective",
+            "Growth-oriented",
+            "Resilient under stress",
+            "Curious about psychology and behavior change",
+            "Candid and transparent about vulnerabilities"
+          ],
+          "COMMUNICATION_STYLE": {
+            "Tone": "Direct, earnest, and hopeful",
+            "Approach": "Shares personal stakes, invites questions, and seeks practical guidance",
+            "Common_Phrases": [
+              "New to the community",
+              "I've been addicted to porn since I was 12",
+              "If anyone wants to know more about my story, I'll happily do a longer post",
+              "What are the benefits of quitting fapping?",
+              "Do you have a quick guide or perhaps a good YouTube channel I can start?"
+            ]
+          },
+          "INTERESTS_HOBBIES": [
+            "Self-help and personal development literature",
+            "Addiction recovery communities (e.g., NoFap/NNN culture)",
+            "Exploring coping strategies (exercise, journaling, mindfulness)",
+            "Consuming educational psychology/content about behavior change"
+          ],
+          "SOCIAL_BEHAVIOR": {
+            "Orientation": "Community-oriented, seeks supportive spaces, values safety and non-judgment",
+            "Boundaries": "Willing to set boundaries and seek accountability while avoiding shaming others",
+            "Relationships": "Not domineering; tends to be introspective and respectful; prioritizes authentic connections"
+          },
+          "EMOTIONAL_PATTERNS": {
+            "Stress_Response": "Turns to introspection and structured plans; views relapse as part of a learning process",
+            "Emotional_Triggers": [
+              "temptation and cravings",
+              "public accountability",
+              "relapses"
+            ],
+            "Motivation": "Desire for healthier life, personal growth, and supportive communities"
+          },
+          "LIFESTYLE_HABITS": {
+            "Daily_Routine": "Rebuilding routines around recovery; uses digital tools to track progress; prioritizes sleep, exercise, and trigger avoidance",
+            "Living_Situation": "Possible single status or casual relationship; values privacy and boundaries",
+            "Work_Life": "Ambitious about self-improvement; may have flexible or transitional work arrangements to support recovery"
+          },
+          "BACKGROUND_HINTS": {
+            "Age_Range": "Around 30",
+            "Gender": "Male",
+            "Geography": "North America (likely United States)",
+            "Education_Career": "Possibly college-educated; comfortable with online communities and self-help ecosystems"
+          },
+          "UNIQUE_QUIRKS": [
+            "Explicit use of PMO, NoFap, and NNN terminology in everyday discourse",
+            "Comfortable sharing vulnerable, personal disclosures with a broad audience",
+            "Prefers structured guidance (quick guides, channels, challenges) over generic advice",
+            "Balancing self-critique with self-compassion to sustain motivation"
+          ]
+        },
+        {
+          "ID": "Profile_2_WeddingBoundaries",
+          "SOURCE": "Female, 25, engaged; posted about uninviting a homophobic partner in a wedding context",
+          "CORE_TRAITS": [
+            "Boundary-driven",
+            "Protective of loved ones",
+            "Principled and pragmatic",
+            "Direct communicator",
+            "Compassionate toward marginalized groups"
+          ],
+          "COMMUNICATION_STYLE": {
+            "Tone": "Direct, assertive, and practical",
+            "Approach": "Uses clear judgments and explicit reasoning; engages in meta-framing (AITA) for accountability",
+            "Common_Phrases": [
+              "AITA?",
+              "uninvited",
+              "protect my family",
+              "Please quit blaming her",
+              "NTA"
+            ]
+          },
+          "INTERESTS_HOBBIES": [
+            "Family dynamics and wedding planning",
+            "LGBTQ+ rights and inclusion",
+            "Social justice and advocacy",
+            "Conflict resolution within social networks"
+          ],
+          "SOCIAL_BEHAVIOR": {
+            "Orientation": "Group-safety oriented; loyal to family and chosen family",
+            "Boundaries": "Sets firm boundaries to prevent harm; willing to exclude others to protect guests",
+            "Relationships": "Direct and honest with close friends; values authentic support; skeptical of toxic dynamics"
+          },
+          "EMOTIONAL_PATTERNS": {
+            "Stress_Response": "Decisive, strategic, and value-driven in action; can show moral outrage while remaining empathetic toward abuse",
+            "Motivation": "Protecting vulnerable family members and ensuring a safe, inclusive celebration",
+            "Emotional_Triggers": [
+              "Homophobia",
+              "Manipulation",
+              "Threats to safety"
+            ]
+          },
+          "LIFESTYLE_HABITS": {
+            "Daily_Routine": "Active in social coordination; balancing wedding planning with group communications; engaged in community events",
+            "Living_Situation": "Likely urban/suburban, Colorado-influenced social environment; progressive social circles",
+            "Work_Life": "College-educated; professional or student; prioritizes personal life and advocacy alongside career"
+          },
+          "BACKGROUND_HINTS": {
+            "Age_Range": "About 25",
+            "Gender": "Female",
+            "Geography": "Colorado or nearby Western US; strong LGBTQ+ community ties",
+            "Education_Career": "College-educated; active in social networks with diverse relations"
+          },
+          "UNIQUE_QUIRKS": [
+            "Uses AITA framework as a decision-making scaffold in real life",
+            "Blunt humor about serious topics (e.g., 'kick L in the nuts') while maintaining boundary integrity",
+            "Integrates religious context with secular values, often challenging exclusionary rhetoric",
+            "Deeply suspicious of victim-blaming and committed to protecting those at risk"
+          ]
+        }
+      ]
+    }
+  }
+]
