@@ -6,12 +6,13 @@ Description: Wrapper functions for calling OpenAI APIs.
 """
 import json
 import random
-import openai
+from openai import OpenAI
 import time 
 
 from utils import *
 
-openai.api_key = openai_api_key
+# Initialize OpenAI client with API key
+client = OpenAI(api_key=openai_api_key)
 
 def temp_sleep(seconds=0.1):
   time.sleep(seconds)
@@ -19,11 +20,8 @@ def temp_sleep(seconds=0.1):
 def ChatGPT_single_request(prompt): 
   temp_sleep()
 
-  completion = openai.ChatCompletion.create(
-    model="gpt-3.5-turbo", 
-    messages=[{"role": "user", "content": prompt}]
-  )
-  return completion["choices"][0]["message"]["content"]
+  # Route to GPT-5-nano via Responses API for visible output
+  return _gpt5_nano_complete(prompt, max_output_tokens=100)
 
 
 # ============================================================================
@@ -40,17 +38,13 @@ def GPT4_request(prompt):
                    the parameter and the values indicating the parameter 
                    values.   
   RETURNS: 
-    a str of GPT-3's response. 
+    a str of GPT-5-nano's response. 
   """
   temp_sleep()
 
   try: 
-    completion = openai.ChatCompletion.create(
-    model="gpt-4", 
-    messages=[{"role": "user", "content": prompt}]
-    )
-    return completion["choices"][0]["message"]["content"]
-  
+    return _gpt5_nano_complete(prompt, max_output_tokens=200)
+
   except: 
     print ("ChatGPT ERROR")
     return "ChatGPT ERROR"
@@ -66,16 +60,12 @@ def ChatGPT_request(prompt):
                    the parameter and the values indicating the parameter 
                    values.   
   RETURNS: 
-    a str of GPT-3's response. 
+    a str of GPT-5-nano's response. 
   """
   # temp_sleep()
   try: 
-    completion = openai.ChatCompletion.create(
-    model="gpt-3.5-turbo", 
-    messages=[{"role": "user", "content": prompt}]
-    )
-    return completion["choices"][0]["message"]["content"]
-  
+    return _gpt5_nano_complete(prompt, max_output_tokens=200)
+
   except: 
     print ("ChatGPT ERROR")
     return "ChatGPT ERROR"
@@ -204,24 +194,67 @@ def GPT_request(prompt, gpt_parameter):
                    the parameter and the values indicating the parameter 
                    values.   
   RETURNS: 
-    a str of GPT-3's response. 
+    a str of GPT-5-nano's response. 
   """
   temp_sleep()
   try: 
-    response = openai.Completion.create(
-                model=gpt_parameter["engine"],
-                prompt=prompt,
-                temperature=gpt_parameter["temperature"],
-                max_tokens=gpt_parameter["max_tokens"],
-                top_p=gpt_parameter["top_p"],
-                frequency_penalty=gpt_parameter["frequency_penalty"],
-                presence_penalty=gpt_parameter["presence_penalty"],
-                stream=gpt_parameter["stream"],
-                stop=gpt_parameter["stop"],)
-    return response.choices[0].text
+    # Use GPT-5-nano via Responses API (completion-style)
+    return _gpt5_nano_complete(
+      prompt,
+      max_output_tokens=gpt_parameter.get("max_tokens", 50),
+      stop=gpt_parameter.get("stop", None)
+    )
   except: 
     print ("TOKEN LIMIT EXCEEDED")
     return "TOKEN LIMIT EXCEEDED"
+
+
+# ----------------------------------------------------------------------------
+# Helper: GPT-5-nano completion using Responses API to produce visible output
+# ----------------------------------------------------------------------------
+def _gpt5_nano_complete(prompt, max_output_tokens=100, stop=None):
+  try:
+    # Try GPT-5-nano first
+    completion_prompt = f"""Complete the following text exactly where it left off. 
+
+IMPORTANT RULES:
+1. Do NOT repeat the person's name if it's already in the prompt
+2. Do NOT include schedule entry IDs like [(ID:...)]
+3. Do NOT add explanations or commentary
+4. Provide only the activity description that continues the sentence
+
+Text to complete:
+{prompt}"""
+    
+    try:
+      response = client.chat.completions.create(
+        model="gpt-5-nano",
+        messages=[{"role": "user", "content": completion_prompt}],
+        max_completion_tokens=max_output_tokens
+      )
+      content = response.choices[0].message.content
+      if content and content.strip():
+        return content.strip()
+    except Exception as e:
+      print(f"GPT-5-nano failed ({e}), trying fallback...")
+    
+    # Fallback to GPT-4o-mini if GPT-5-nano returns empty or fails
+    response = client.chat.completions.create(
+      model="gpt-4o-mini",
+      messages=[{"role": "user", "content": completion_prompt}],
+      max_tokens=max_output_tokens,
+      temperature=0,
+      stop=stop
+    )
+    
+    content = response.choices[0].message.content
+    if content and content.strip():
+      return content.strip()
+
+    return ""
+  except Exception as e:
+    print("GPT completion ERROR", e)
+    return "ChatGPT ERROR"
 
 
 def generate_prompt(curr_input, prompt_lib_file): 
@@ -263,7 +296,15 @@ def safe_generate_response(prompt,
     print (prompt)
 
   for i in range(repeat): 
+    # Use GPT_request which handles the old completion-style prompts properly
     curr_gpt_response = GPT_request(prompt, gpt_parameter)
+    
+    # Skip if we got an error response
+    if curr_gpt_response in ["TOKEN LIMIT EXCEEDED", "ChatGPT ERROR"]:
+      if verbose:
+        print ("---- repeat count: ", i, curr_gpt_response)
+      continue
+        
     if func_validate(curr_gpt_response, prompt=prompt): 
       return func_clean_up(curr_gpt_response, prompt=prompt)
     if verbose: 
@@ -273,16 +314,16 @@ def safe_generate_response(prompt,
   return fail_safe_response
 
 
-def get_embedding(text, model="text-embedding-ada-002"):
+def get_embedding(text, model="text-embedding-3-small"):
   text = text.replace("\n", " ")
   if not text: 
     text = "this is blank"
-  return openai.Embedding.create(
-          input=[text], model=model)['data'][0]['embedding']
+  return client.embeddings.create(
+          input=[text], model=model).data[0].embedding
 
 
 if __name__ == '__main__':
-  gpt_parameter = {"engine": "text-davinci-003", "max_tokens": 50, 
+  gpt_parameter = {"engine": "gpt-5-nano", "max_tokens": 50, 
                    "temperature": 0, "top_p": 1, "stream": False,
                    "frequency_penalty": 0, "presence_penalty": 0, 
                    "stop": ['"']}

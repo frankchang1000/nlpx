@@ -1,0 +1,137 @@
+{
+  "vision_r": 7,
+  "att_bandwidth": 9,
+  "retention": 7,
+  "curr_time": "January 5, 2023, 21:12:54",
+  "curr_tile": [
+    51,
+    19
+  ],
+  "daily_plan_req": "1. Wake up at 6:30 am, make coffee, and check online whiskey forums for new releases. 2. Work from 8:00 am to 4:00 pm as a logistics coordinator. 3. Stop by Total Wine after work to browse for allocated bottles. 4. Log recent purchases and expenses into personal spreadsheet by 7:00 pm. 5. Host a small tasting for neighbors or friends twice a week. 6. Reflect on whiskey budget goals before bed at 11:00 pm.",
+  "name": "Caleb Thornton",
+  "first_name": "Caleb",
+  "last_name": "Thornton",
+  "age": 32,
+  "innate": "curious, detail-oriented, social",
+  "learned": "Caleb Thornton has developed a deep knowledge of bourbon and scotch collecting. He knows the value of rare bottles, tracks loyalty points systems like Total Wine’s, and often organizes small gatherings where he shares his collection. Although he loves the hunt, Caleb is also aware of his spending habits and tries to balance indulgence with responsibility.",
+  "currently": "Status: Caleb recently realized he spent over $3,000 on whiskey in 2022, including a bourbon trail trip where he picked up bottles directly from distilleries. While part of the stash was shared with his local cigar-and-whiskey club, most was for his own collection. He’s both proud of his shelves of Eagle Rare, Weller, and Glenmorangie Signet, and slightly uneasy about the budget hit. His resolution for 2023 is to slow down purchases until at least half the cabinet is empty.",
+  "lifestyle": "Caleb usually goes to bed around 11:30 pm and wakes at 6:30 am. He budgets carefully but allows himself room for hobby spending, especially when rare bottles appear. Social drinking is central — he hosts tastings, brings bottles to neighborhood groups, and gifts whiskey for special occasions.",
+  "living_area": "the Ville:Caleb Thornton's townhouse:whiskey den",
+  "concept_forget": 97,
+  "daily_reflection_time": 150,
+  "daily_reflection_size": 6,
+  "overlap_reflect_th": 5,
+  "kw_strg_event_reflect_th": 12,
+  "kw_strg_thought_reflect_th": 10,
+  "recency_w": 1,
+  "relevance_w": 1,
+  "importance_w": 2,
+  "recency_decay": 0.994,
+  "importance_trigger_max": 160,
+  "importance_trigger_curr": 131,
+  "importance_ele_n": 22,
+  "thought_count": 7,
+  "daily_req": [
+    "wake up at 6:30 am and make coffee",
+    "work from 8:00 am to 4:00 pm as a logistics coordinator",
+    "stop by Total Wine or local shops to browse bottles",
+    "log whiskey purchases into expense spreadsheet by 7:00 pm",
+    "host tastings with neighbors and friends",
+    "reflect on whiskey budget and resolutions",
+    "wind down with a pour of scotch or bourbon before bed"
+  ],
+  "f_daily_schedule": [
+    [
+      "sleeping",
+      420
+    ],
+    [
+      "morning routine with coffee and browsing whiskey forums",
+      60
+    ],
+    [
+      "working as a logistics coordinator",
+      480
+    ],
+    [
+      "stopping at Total Wine to browse bottles",
+      45
+    ],
+    [
+      "logging purchases and updating spreadsheet",
+      45
+    ],
+    [
+      "hosting whiskey tastings or relaxing with a pour",
+      120
+    ],
+    [
+      "reading or reflecting on budget",
+      60
+    ],
+    [
+      "going to bed",
+      90
+    ]
+  ],
+  "f_daily_schedule_hourly_org": [
+    [
+      "sleeping",
+      420
+    ],
+    [
+      "morning routine with coffee and browsing whiskey forums",
+      60
+    ],
+    [
+      "working as a logistics coordinator",
+      480
+    ],
+    [
+      "stopping at Total Wine to browse bottles",
+      45
+    ],
+    [
+      "logging purchases and updating spreadsheet",
+      45
+    ],
+    [
+      "hosting whiskey tastings or relaxing with a pour",
+      120
+    ],
+    [
+      "reading or reflecting on budget",
+      60
+    ],
+    [
+      "going to bed",
+      90
+    ]
+  ],
+  "act_address": "the Ville:Caleb Thornton's townhouse:whiskey den:oak cabinet",
+  "act_start_time": "January 5, 2023, 19:30:00",
+  "act_duration": 120,
+  "act_description": "hosting a casual whiskey tasting with neighbors",
+  "act_pronunciatio": "🥃",
+  "act_event": [
+    "Caleb Thornton",
+    "is",
+    "tasting"
+  ],
+  "act_obj_description": "bottles on display",
+  "act_obj_pronunciatio": "🍾",
+  "act_obj_event": [
+    "cabinet",
+    "be",
+    "opened"
+  ],
+  "chatting_with": null,
+  "chat": null,
+  "chatting_with_buffer": {
+    "Ethan Brooks": -853,
+    "Nora James": -1217
+  },
+  "chatting_end_time": null,
+  "act_path_set": true,
+  "planned_path": []
+}

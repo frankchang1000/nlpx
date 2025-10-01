@@ -1,0 +1,26 @@
+generate_hourly_schedule_v2_gpt5.txt
+
+Variables: 
+!<INPUT 0>! -- Schedule format
+!<INPUT 1>! -- Commonset
+!<INPUT 2>! -- prior_schedule
+!<INPUT 3>! -- intermission_str
+!<INPUT 4>! -- intermission 2
+!<INPUT 5>! -- prompt_ending
+
+<commentblockmarker>###</commentblockmarker>
+You are helping to create a detailed hourly schedule. Based on the context provided, complete the schedule entry with just the activity description.
+
+Expected hourly schedule format: 
+!<INPUT 0>!
+
+Context:
+!<INPUT 1>!
+!<INPUT 2>!
+!<INPUT 3>!!<INPUT 4>!
+
+Complete this schedule entry by providing ONLY the activity description (what the person is doing):
+!<INPUT 5>! [ACTIVITY_HERE]
+
+Provide only the activity description without explanations or additional text.
+

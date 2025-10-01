@@ -6,11 +6,13 @@ Description: Wrapper functions for calling OpenAI APIs.
 """
 import json
 import random
-import openai
+from openai import OpenAI
 import time 
 
 from utils import *
-openai.api_key = openai_api_key
+
+# Initialize OpenAI client with API key
+client = OpenAI(api_key=openai_api_key)
 
 def ChatGPT_request(prompt): 
   """
@@ -22,15 +24,15 @@ def ChatGPT_request(prompt):
                    the parameter and the values indicating the parameter 
                    values.   
   RETURNS: 
-    a str of GPT-3's response. 
+    a str of GPT-5-nano's response. 
   """
   # temp_sleep()
   try: 
-    completion = openai.ChatCompletion.create(
-    model="gpt-3.5-turbo", 
+    completion = client.chat.completions.create(
+    model="gpt-5-nano", 
     messages=[{"role": "user", "content": prompt}]
     )
-    return completion["choices"][0]["message"]["content"]
+    return completion.choices[0].message.content
   
   except: 
     print ("ChatGPT ERROR")

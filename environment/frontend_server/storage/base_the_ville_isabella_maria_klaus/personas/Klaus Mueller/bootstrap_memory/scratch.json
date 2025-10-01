@@ -12,7 +12,7 @@
   "innate": "kind, inquisitive, passionate", 
   "learned": "Klaus Mueller is a student at Oak Hill College studying sociology. He is passionate about social justice and loves to explore different perspectives.", 
   "currently": "Klaus Mueller is writing a research paper on the effects of gentrification in low-income communities.", 
-  "lifestyle": "Klaus Mueller goes to bed around 11pm, awakes up around 7am, eats dinner around 5pm.", 
+  "lifestyle": "Klaus Mueller goes to bed around 12:30am, awakes up around 6:30am, eats dinner around 5pm.", 
   "living_area": "the Ville:Dorm for Oak Hill College:Klaus Mueller's room",
   "concept_forget": 100,
   "daily_reflection_time": 180,
@@ -30,9 +30,91 @@
   "importance_ele_n": 0, 
   "thought_count": 5, 
   
-  "daily_req": [], 
-  "f_daily_schedule": [],
-  "f_daily_schedule_hourly_org": [],
+  "daily_req": [
+    "wake up at 6:30 am and review research notes",
+    "attend morning classes or library research from 8:00 am to 12:00 pm",
+    "lunch break and social time at Hobbs Cafe",
+    "afternoon writing and research from 2:00 pm to 6:00 pm",
+    "dinner and evening discussions with peers",
+    "late evening reading and reflection",
+    "prepare for next day before bed"
+  ], 
+  "f_daily_schedule": [
+    [
+      "sleeping",
+      330
+    ],
+    [
+      "morning routine and reviewing research notes",
+      90
+    ],
+    [
+      "attending classes or library research",
+      240
+    ],
+    [
+      "lunch and socializing at Hobbs Cafe",
+      90
+    ],
+    [
+      "afternoon writing and research work",
+      240
+    ],
+    [
+      "dinner and peer discussions",
+      120
+    ],
+    [
+      "evening reading and reflection",
+      150
+    ],
+    [
+      "preparing for next day",
+      90
+    ],
+    [
+      "going to bed",
+      90
+    ]
+  ],
+  "f_daily_schedule_hourly_org": [
+    [
+      "sleeping",
+      330
+    ],
+    [
+      "morning routine and reviewing research notes",
+      90
+    ],
+    [
+      "attending classes or library research",
+      240
+    ],
+    [
+      "lunch and socializing at Hobbs Cafe",
+      90
+    ],
+    [
+      "afternoon writing and research work",
+      240
+    ],
+    [
+      "dinner and peer discussions",
+      120
+    ],
+    [
+      "evening reading and reflection",
+      150
+    ],
+    [
+      "preparing for next day",
+      90
+    ],
+    [
+      "going to bed",
+      90
+    ]
+  ],
   "act_address": null, 
   "act_start_time": null, 
   "act_duration": null, 
